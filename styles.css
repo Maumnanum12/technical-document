@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    z-index: 1000; /* Ensure header stays above other elements */
+}
+
+#navbar {
+    position: fixed;
+    top: 70px; /* Adjust top position to avoid overlap with header */
+    left: 0;
+    width: 250px;
+    max-width: calc(100vw - 20px); /* Ensure navbar width is contained within left side of window */
+    background-color: #efcf3e;
+    color: #333;
+    padding: 20px;
+    z-index: 999; /* Ensure navbar stays above main-doc */
+}
+
+#navbar header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar ul li {
+    width: 100%; /* Ensure each list item takes full width */
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center; /* Center the text */
+}
+
+#main-doc {
+    margin-left: 250px; /* Ensure main-doc is next to navbar */
+    padding: 20px;
+}
+
+#main-doc header {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 0; /* Remove default margin */
+}
+
+/* Additional styles for main-doc content */
+
+#main-doc header {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 0; /* Remove default margin */
+}
+
+/* Additional styles for main-doc content */
