@@ -8,17 +8,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
-    color: #fff;
+    background-color: #574b4b;
+    color: #923f84;
     padding: 20px;
     z-index: 1000; /* Ensure header stays above other elements */
 }
 
 #navbar {
     position: fixed;
-    top: 70px; /* Adjust top position to avoid overlap with header */
+    top: 90px; /* Adjust top position to avoid overlap with header */
     left: 0;
-    width: 250px;
+    width: 200px;
     max-width: calc(100vw - 20px); /* Ensure navbar width is contained within left side of window */
     background-color: #efcf3e;
     color: #333;
@@ -40,11 +40,17 @@ header {
     width: 100%; /* Ensure each list item takes full width */
     padding: 10px 0; /* Adjust padding as needed */
     text-align: center; /* Center the text */
+    
+    font-size: 20px;
 }
-
+ #navbar ul li a{
+    text-decoration: none;
+ }
 #main-doc {
+    margin-top: 20px;
     margin-left: 250px; /* Ensure main-doc is next to navbar */
     padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 #main-doc header {
@@ -64,5 +70,14 @@ header {
     padding: 10px;
     margin: 0; /* Remove default margin */
 }
+ #main-doc p {
+    font-weight: bold;
+    font-size: 19px;
+    color: teal;
+ }
 
-/* Additional styles for main-doc content */
+ Additional styles for main-doc content */
+
+  
+
+
